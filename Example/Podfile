@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MotionStreetView_Example' do
+  pod 'MotionStreetView', :path => '../'
+
+  target 'MotionStreetView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
